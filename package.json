@@ -1,0 +1,23 @@
+{
+  "name": "myapp1",
+  "version": "1.0.1",
+  "private": true,
+  "description": "myapp1",
+  "templateInfo": {
+    "name": "default",
+    "css": "none"
+  },
+  "scripts": {
+    "build:simulator": "syberh build --type simulator",
+    "build:device": "syberh build --type device",
+    "dev:device": "syberh build --type device  --debug",
+    "dev:simulator": "syberh build --type simulator  --debug",
+    "build": "syberh build"
+  },
+  "author": "YuanXin",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
