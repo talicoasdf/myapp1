@@ -7,10 +7,10 @@ INCLUDEPATH += $$[QT_INSTALL_HEADERS]/../syberos_application \
 #Please Do not modify these macros, otherwise your app will not installed correctly and will not run at all.
 APP_DIR = /data/apps
 APP_DATA = /data/data
-INSTALL_DIR = $$APP_DIR/com.syberh.myaap1
-DATA_DIR = $$APP_DATA/com.syberh.myaap1
+INSTALL_DIR = $$APP_DIR/com.syberh.myapp1
+DATA_DIR = $$APP_DATA/com.syberh.myapp1
 
-DEFINES += SOP_ID=\\\"com.syberh.myaap1\\\"
+DEFINES += SOP_ID=\\\"com.syberh.myapp1\\\"
 DEFINES += APP_DIR_ENVVAR=\\\"APPDIR_REGULAR\\\"
 # Currently home screen sets the environment variable, so when run from
 # elsewhere, use this work-around instead.

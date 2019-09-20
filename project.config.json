@@ -1,7 +1,7 @@
 {
-  "projectName": "myapp1",
-  "appName": "myapp1",
-  "target": "target-armv7tnhl-xuanwu",
-  "targetSimulator": "target-armv7tnhl-xuanwu",
-  "sopid": "com.syberh.myaap1"
+	"projectName": "myapp1",
+	"appName": "myapp1",
+	"target": "target-armv7tnhl-xuanwu",
+	"targetSimulator": "target-i686-xuanwu",
+	"sopid": "com.syberh.myapp1"
 }
