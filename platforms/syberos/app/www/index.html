@@ -22,6 +22,8 @@
     <p>
       <a href="second.html">跳转到second页面</a>
     </p>
+    <h3>index.html被唤起后的回调信息如下:</h3>
+    <textarea id="text1" cols="40" rows="10" style="height: auto"></textarea>
 
   </div>
 </body>
@@ -29,6 +31,12 @@
   document.getElementById("text").innerHTML = "当前环境:" + JSON.stringify(syberh.os);
 
   var vConsole = new VConsole();
+  /**
+   * 注册接收原生的错误信息
+   */
+  syberh.subscribe('onShow', function (result) {
+    document.getElementById("text1").innerHTML = JSON.stringify(result);
+  });
 
 </script>
 
